@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Virtual Assistant</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+  <style>
+    .header {
+      background-color: #76B39D; /* Set the header background color */
+      color: #FFFFFF; /* Set the header text color */
+      padding: 1rem; /* Add padding to the header */
+    }
+    .hero-body {
+      background-image: url('virtual-assistant-training.jpg');
+      background-size: cover;
+      background-position: center center;
+      color: #cc0000;
+      
+    }
+
+    .hero-body::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: -1;
+    }
+
+    .footer {
+      padding: 3rem;
+    }
+
+    .get-started-btn{
+      background-color: #76B39D;
+      color: #000000;
+    }
+
+    .get-started-btn:hover{
+      background-color: #273f36;
+      color: #ffffff;
+    }
+
+    .welcome-text {
+      color: #000000;
+    }
+    /* CSS for Services Section */
+    #services {
+      padding: 3rem 0;
+    }
+
+    .services-title {
+      margin-bottom: 3rem;
+    }
+
+    .services-title::after {
+      content: "";
+      display: block;
+      width: 5rem;
+      height: 2px;
+      margin-top: 1rem;
+      background-color: #000000;
+    }
+
+    .service-box {
+      background-color: #76B39D;
+      border-radius: 8px;
+      padding: 2rem;
+      height: 100%;
+      box-shadow: 0px 4px 8px rgb(248, 247, 247);
+    }
+
+    .service-box:hover {
+      transform: translateY(-4px);
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .service-title {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .service-description {
+      color: #ffffff;
+    }
+    <!-- CSS for About Us page -->
+<style>
+ /* About Us Page CSS */
+
+.about-us-description {
+  font-size: 1.2rem;
+  color: #777;
+  margin-bottom: 2rem;
+}
+
+.about-us-team {
+  background-color: #76B39D;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-us-member {
+  width: 250px;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.about-us-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.about-us-member h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.about-us-member p {
+  font-size: 1rem;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.about-us-member .social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.about-us-member .social-links a {
+  margin: 0 0.5rem;
+}
+
+/* Font Awesome icons */
+.fab {
+  font-size: 1.5rem;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+.fab:hover {
+  color: #007bff;
+}
+
+</style>
+
+  </style>
+</head>
+
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a href="#" class="custom-logo-link" rel="home" aria-current="page"><img loading="lazy" width="518" height="117" src="https://free03560.files.wordpress.com/2023/04/logo1.png"
+           class="custom-logo" alt="Virtual Assistant" decoding="async" srcset="https://free03560.files.wordpress.com/2023/04/logo1.png?w=515&amp;h=117 515w, https://free03560.files.wordpress.com/2023/04/logo1.png?w=150&amp;h=34 150w, https://free03560.files.wordpress.com/2023/04/logo1.png?w=300&amp;h=68 300w, https://free03560.files.wordpress.com/2023/04/logo1.png?w=768&amp;h=174 768w, https://free03560.files.wordpress.com/2023/04/logo1.png 1000w" sizes="(max-width: 518px) 100vw, 518px" data-attachment-id="19" data-permalink="https://free03560.wordpress.com/logo1/" data-orig-file="https://free03560.files.wordpress.com/2023/04/logo1.png"
+            data-orig-size="1000,227" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="logo1" data-image-description="" data-image-caption="" data-medium-file="https://free03560.files.wordpress.com/2023/04/logo1.png?w=300" data-large-file="https://free03560.files.wordpress.com/2023/04/logo1.png?w=1000"></a>
+          
+        </a>
+
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+          data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">Services</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="#">Marketing</a>
+              <a class="navbar-item" href="#">CRM</a>
+            </div>
+          </div>
+          <a class="navbar-item" href="#">About Us</a>
+        </div>
+        
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero is-primary is-fullheight">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title is-1 welcome-text">
+          Welcome to Virtual Assistant
+        </h1>
+        <h2 class="subtitle is-3">
+          Making Your Life Easier
+        </h2>
+        <a class="button is-light is-rounded is-medium get-started-btn" href="https://www.example.com">Get Started</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+   <!-- Services Section -->
+   <section id="services" class="section">
+    <div class="container">
+      <h2 class="title is-2 has-text-centered services-title">
+        Our Services
+      </h2>
+      <div class="columns is-multiline">
+        <div class="column is-6">
+          <div class="box has-text-centered service-box">
+            <h3 class="title is-4 service-title">Marketing</h3>
+            <p class="service-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum lobortis odio, sit
+              amet tempor risus facilisis sit amet.
+            </p>
+          </div>
+        </div>
+        <div class="column is-6">
+          <div class="box has-text-centered service-box">
+            <h3 class="title is-4 service-title">Customer Support</h3>
+            <p class="service-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum lobortis odio, sit amet tempor risus facilisis sit amet.
+            </p>
+            </div>
+            </div>
+            <div class="column is-6">
+            <div class="box has-text-centered service-box">
+            <h3 class="title is-4 service-title">Data Entry</h3>
+            <p class="service-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum lobortis odio, sit
+            amet tempor risus facilisis sit amet.
+            </p>
+            </div>
+            </div>
+            <div class="column is-6">
+            <div class="box has-text-centered service-box">
+            <h3 class="title is-4 service-title">Administrative Tasks</h3>
+            <p class="service-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum lobortis odio, sit
+            amet tempor risus facilisis sit amet.
+            </p>
+            </div>
+            </div>
+            </div>
+            </div>
+            
+              </section>
+
+  <!-- About Us Section -->
+  <!-- About Us Page HTML -->
+  <div class="container">
+    <h2 class="title is-2 has-text-centered services-title">
+      About US
+    </h2>
+      </div>
+    <div class="about-us-team">
+      <div class="about-us-member">
+        <img src="bb.jpg" alt="Member 1">
+        <h4>Matthew Chua</h4>
+        <p>Virtual Assistant</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="about-us-member">
+        <img src="IMG_4048.jpeg" alt="Member 2">
+        <h4>Jasmin Goles</h4>
+        <p>Virtual Assistant</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <p>
+          Virtual Assistant &copy; 2023. All rights reserved. | <a href="#">Privacy Policy</a> | <a
+            href="#">Terms of Service</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // JavaScript for Navbar burger menu
+    document.addEventListener('DOMContentLoaded', () => {
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+      if ($navbarBurgers.length > 0) {
+        $navbarBurgers.forEach(el => {
+          el.addEventListener('click', () => {
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+          });
+        });
+      }
+    });
+  </script>
+</body>
+
+</html>
