@@ -29,6 +29,7 @@
       background-color: rgba(0, 0, 0, 0.5);
       z-index: -1;
     }
+    
 
     .footer {
       padding: 3rem;
@@ -36,17 +37,35 @@
 
     .get-started-btn{
       background-color: #76B39D;
-      color: #000000;
+      color: rgb(0, 0, 0);
+      padding: 10px;
+      border-radius: 8px;
+      margin:4px 2px;
+      display: inline-block;
+      text-decoration: none;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 20px;
     }
 
     .get-started-btn:hover{
       background-color: #273f36;
-      color: #ffffff;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: white;
     }
-
-    .welcome-text {
+    .welcome-text{
+      color: #76B39D;
+      font-size: 40px;
+      font-family:Arial, Helvetica, sans-serif;
+      -webkit-text-stroke:2px #000000;
+      
+    }
+    .subtitle1{
       color: #000000;
+      font-size: 40px;
+      font-family:Arial, Helvetica, sans-serif;
+      -webkit-text-stroke: 2px #76B39D;
     }
+   
     /* CSS for Services Section */
     #services {
       padding: 3rem 0;
@@ -196,13 +215,13 @@
   <section class="hero is-primary is-fullheight">
     <div class="hero-body">
       <div class="container has-text-centered">
-        <h1 class="title is-1 welcome-text">
+        <h1 class="welcome-text">
           Welcome to Virtual Assistant
         </h1>
-        <h2 class="subtitle is-3">
-          Making Your Life Easier
+        <h2 class="subtitle1">
+        <em>  Making Your Life Easier</em>
         </h2>
-        <a class="button is-light is-rounded is-medium get-started-btn" href="https://www.example.com">Get Started</a>
+        <a class="get-started-btn" href="https://www.facebook.com/fabvirtualprofessional">Get Started</a>
       </div>
     </div>
   </section>
